@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>CashXBet - Best online casino simulator!</title>
+</head>
+<body>
+    <div class="topbar">
+        <img src="/barnding/logo.png" class="logo">
+        <p class="title">CashXBet</p>
+
+        <a class="toplink" id="userid">userId</a>
+        <a class="toplink" id="balance">0$</a>
+        
+        <a href="/" class="toplink">Games</a>
+        <a href="/profile.html" class="toplink">Profile</a>
+        <a href="/balance.html" class="toplink">Top up</a>
+        
+    </div>
+
+    <div id="spin_the_wheel">
+        <canvas id="wheel" width="800" height="800"></canvas>
+        <div id="spin" onclick="play()">SPIN</div>
+    </div>
+
+    <div>
+        <p>Current Bet:</p>
+        <p id="currentBet">0</p>
+        <input id="betInput" type="number" placeholder="Bet Ammount">
+        <button onclick="placeBet()">Set</button>
+    </div>
+
+</body>
+<script src="/main.js" defer></script>
+<script src="weel.js" defer></script>
+</html>

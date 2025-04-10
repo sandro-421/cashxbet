@@ -1,0 +1,194 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+}
+
+input{
+    width: 180px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button {
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.topbar {
+    border: white solid 5px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    border-radius: 10px;
+    
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.toplink {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#userid {
+    font-weight: bold;
+    color: greenyellow;
+    font-size: 28px;
+}
+
+#balance {
+    font-weight: bold;
+    color: rgb(61, 47, 255);
+    font-size: 25px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.section {
+    margin-top: 10px;
+    font-size: 30px;
+    display: inline;
+}
+
+.list {
+    display: flex;
+    background-color: rgba(0, 100, 0, 0.350);
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+.gameCard {
+    width: 200px;
+    height: 180px;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.form {
+    padding: 100px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgba(0, 100, 0, 0.350);
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid;
+    text-align: center;
+}
+
+/* Code for game icons */
+
+#weel {background-image: url("game_buttons/weel.png");}
+
+/* Code for games */
+
+/* Spin the weel */
+
+#spin_the_wheel {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    position: fixed;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 22%;
+  }
+  
+  #wheel {
+    display: block;
+  }
+  
+  #spin {
+    font:
+      1.5em/0 "Lato",
+      sans-serif;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 30%;
+    margin: -15%;
+    background: #fff;
+    color: #fff;
+    box-shadow:
+      0 0 0 8px currentColor,
+      0 0px 15px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    transition: 0.8s;
+  }
+  
+  #spin::after {
+    content: "";
+    position: absolute;
+    top: -17px;
+    border: 10px solid transparent;
+    border-bottom-color: currentColor;
+    border-top: none;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+#currentBet {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
