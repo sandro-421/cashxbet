@@ -1,28 +1,24 @@
-<h1>CashXBet</h1>
-<h2>Presented to you by user404</h2>
+CashXBet
+========
 
-<h3>Features:</h3>
-<ul>
-    <li>Profile</li>
-    <li>Balance</li>
-</ul>
+Presented to you by user404
+---------------------------
 
-<h3>Games:</h3>
-<ul>
-    <li>Only Roulette (for now)</li>
-</ul>
+### Features:
 
-<h3>Todo:</h3>
-<ul>
-    <li>Games:
-        <ul>
-            <li>Slot machine</li>
-            <li>Plinko</li>
-        </ul>
-    </li>
-</ul>
+*   Profile
+*   Balance
 
-<h3>Special commands (use them in the terminal!):</h3>
-<ul>
-    <li><b>resetBalance();</b> - Used to reset balance (in case of a bug)</li>
-</ul>
+### Games:
+
+*   Only Roulette (for now)
+
+### Todo:
+
+*   Games:
+    *   Slot machine
+    *   Plinko
+
+### Special commands (use them in the terminal!):
+
+*   **resetBalance();** - Used to reset balance (in case of a bug)
